@@ -8,5 +8,5 @@ A [vim](https://www.vim.org/) environment for Elm development that I'm using to 
 
 ## Using it
 curl -LSso Dockerfile https://raw.githubusercontent.com/marciofrayze/vim-elm-dev-environment/master/Dockerfile  
-docker build . -t vim-elm-dev-environment 
+docker build . -t vim-elm-dev-environment  
 docker run -it vim-elm-dev-environment:latest  
